@@ -21,7 +21,8 @@ export default function BookViewPage() {
 
           <Card.Text>
             <strong>ISBN:</strong> {book.isbn} <br />
-            <strong>Format:</strong> {book.format}
+            <strong>Format:</strong> {book.format}<br />
+            <strong>Price:</strong> {book.price}
           </Card.Text>
 
           <hr />
