@@ -5,6 +5,7 @@ import LoginPage from "./Pages/LoginPage";
 import RegisterPage from "./Pages/RegisterPage";
 import PrivateRoutes from "./route/protectedRoute";
 import BookViewPage from "./Pages/bookViewPage";
+import CartPage from "./Pages/CartPage";
 function App() {
   return (
     <Routes>
@@ -13,7 +14,8 @@ function App() {
         <Route path="/book/details/:id" element={<BookViewPage />}></Route>
       </Route>
       <Route path="/login" element={<LoginPage />}></Route>
-      <Route path="register" element={<RegisterPage />} />
+      <Route path="/register" element={<RegisterPage />} />
+      <Route path="/cart" element={<CartPage />} />
       <Route path="/" element={<LoginPage />} />
     </Routes>
   );
