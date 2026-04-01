@@ -1,10 +1,5 @@
 import { useState } from "react";
-import {
-    Button,
-    Container,
-    FloatingLabel,
-    Form
-} from "react-bootstrap";
+import { Button, Container, FloatingLabel, Form } from "react-bootstrap";
 import { NavLink, useNavigate } from "react-router-dom";
 import "../CSS/login.css";
 import useFetch from "../GetDetails/FetchUser";
@@ -23,7 +18,7 @@ function LoginPage() {
     event.preventDefault();
     try {
       const errors: { invalid?: string } = {};
-      const user:any = userDetails.find(
+      const user: any = userDetails.find(
         (u: { email: string; password: string }) =>
           u.email === loginDetails.email &&
           u.password === loginDetails.password,
@@ -31,7 +26,8 @@ function LoginPage() {
 
       if (user) {
         navigate("/home");
-        localStorage.setItem("userId", user.uid);
+        localStorage.setItem("userId", user.id);
+        localStorage.setItem("user", JSON.stringify(user));
       } else {
         errors.invalid = "Invalid email or password";
         setError(errors);

@@ -3,13 +3,12 @@
     {
       "id": "45a6",
       "name": "Janu",
-      "designation": "workingprofessional",
+      "designation": "entrepreneur",
       "email": "janu1234@gmail.com",
       "phoneNumber": "7539966976",
       "username": "JAnu Shree",
       "password": "Janu@123",
-      "confirmPassword": "Janu@123",
-      "uid": "I27GfMX6DQU11aADrec7y2nAMh33"
+      "confirmPassword": "Janu@123"
     },
     {
       "id": "5d97",
@@ -20,6 +19,16 @@
       "username": "Puvi",
       "password": "Puvi@123",
       "confirmPassword": "Puvi@123"
+    },
+    {
+      "id": "hsDa8vGT8Rs",
+      "name": "Janu",
+      "designation": "workingprofessional",
+      "email": "janu1234@gmail.com",
+      "phoneNumber": "7539966976",
+      "username": "JAnu Shree",
+      "password": "Janu@123",
+      "confirmPassword": "Janu@123"
     }
   ],
   "bookDetails": [
@@ -93,7 +102,7 @@
       "language": "en",
       "pages": "472",
       "filesize": "6937523",
-      "price":  599
+      "price": 599
     },
     {
       "id": "B105",
@@ -149,7 +158,6 @@
       "filesize": "6937523",
       "price": 2599
     },
-
     {
       "id": "B108",
       "title": "Data Structures",
@@ -168,7 +176,6 @@
       "filesize": "6937523",
       "price": 2499
     },
-
     {
       "id": "B109",
       "title": "System Design",
@@ -187,7 +194,6 @@
       "filesize": "6937523",
       "price": 2999
     },
-
     {
       "id": "B110",
       "title": "Python Basics",
@@ -278,7 +284,6 @@
       "filesize": "6937523",
       "price": 300
     },
-
     {
       "id": "B115",
       "title": "Cloud Computing",
@@ -297,7 +302,6 @@
       "filesize": "6937523",
       "price": 1600
     },
-
     {
       "id": "B116",
       "title": "DevOps Guide",
@@ -334,7 +338,6 @@
       "filesize": "6937523",
       "price": 400
     },
-
     {
       "id": "B118",
       "title": "UI/UX Design",
@@ -353,7 +356,6 @@
       "filesize": "6937523",
       "price": 700
     },
-
     {
       "id": "B119",
       "title": "Networking Basics",
@@ -372,7 +374,6 @@
       "filesize": "6937523",
       "price": 500
     },
-
     {
       "id": "B120",
       "title": "Operating Systems",
@@ -392,8 +393,19 @@
       "price": 2000
     }
   ],
-  "cartItems":[
-
+  "cartItems": [
+    {
+      "product_quantity": 1,
+      "product_id": "B120",
+      "user_id": "45a6",
+      "id": "5c38"
+    },
+    {
+      "product_quantity": 1,
+      "product_id": "B119",
+      "user_id": "45a6",
+      "id": "c8b2"
+    }
   ],
   "$schema": "./node_modules/json-server/schema.json"
 }
