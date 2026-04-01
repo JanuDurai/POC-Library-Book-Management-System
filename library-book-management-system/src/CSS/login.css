@@ -1,0 +1,54 @@
+/* Full screen container */
+.login-container {
+  padding: 0;
+}
+
+/* Wrapper */
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Background image */
+.bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Overlay (center form) */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(0, 0, 0, 0.4); /* dark overlay */
+}
+
+/* Login card */
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Button */
+.login-btn {
+  background-color: black !important;
+  border: none !important;
+  color:white;
+}
+
+.login-btn:hover {
+  background-color: #333 !important;
+}
